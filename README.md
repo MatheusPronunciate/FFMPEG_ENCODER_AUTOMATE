@@ -3,6 +3,10 @@ Arquivos .bat com configurações pré-definidas para encode de vídeo usando o 
 
 Para alterar as configurações de um .bat, basta abrir em um editor simples de texto e inserir configurações aceitas pelo ffmpeg
 
+# AVISO
+
+É NECESSÁRIO BAIXAR OS ARQUIVOS DO FFMPEG DE MANEIRA SEPARADA E COLOCA-LOS NAS SUAS RESPECTIVAS PASTAS!
+
 ----------SUMÁRIO-----------------
 
 01 - faz um encode em áudio, e faz para vídeo em 720p de maneira rápida (não recomendado para vídeos com muita movimentação (recomendação para este caso: abaixar o crf; mudar de veryfast para fast ou slow)
