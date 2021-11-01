@@ -1,0 +1,1 @@
+for %%a in ("*.*") do "ffmpeg\ffmpeg.exe" -i "%%a" -c:v h264_amf -profile:v main -level:v 4.1 -preset veryslow -crf 0 -c:a copy "newfiles\%%~na (1080p).mp4"

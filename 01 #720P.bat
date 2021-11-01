@@ -1,0 +1,1 @@
+for %%a in ("*.*") do "ffmpeg\ffmpeg.exe" -i "%%a" -movflags +faststart -map_metadata -1 -c:v libx264 -profile:v main -level:v 3.1 -vf scale=1280:720 -sws_flags lanczos -preset veryfast -tune film -crf 30 -c:a copy "newfiles\%%~na (720p).mp4"
