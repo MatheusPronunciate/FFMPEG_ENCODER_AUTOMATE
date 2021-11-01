@@ -1,0 +1,1 @@
+Por conta do limite de armazenamento do github, você vai precisar baixar o ffmpeg por fora (no site oficial deles: https://www.ffmpeg.org/download.html) e colocar o arquivo desejado na pasta.
