@@ -1,0 +1,1 @@
+for %%a in ("*.*") do "ffmpeg\ffmpeg.exe" -i "%%a" "newfiles\%%~na (POSTER).png"

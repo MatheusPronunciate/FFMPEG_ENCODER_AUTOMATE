@@ -1,0 +1,1 @@
+for %%a in ("*.*") do "ffmpeg\ffmpeg.exe" -i "%%a" -acodec libmp3lame "newfiles\%%~na (convertido).mp3"

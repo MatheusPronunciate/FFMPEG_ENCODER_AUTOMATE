@@ -1,0 +1,1 @@
+for %%a in ("*.*") do "ffmpeg\ffmpeg.exe" -i "%%a" -c copy "newfiles\%%~na (CONVERTIDO).mp4"
