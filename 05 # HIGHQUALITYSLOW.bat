@@ -1,0 +1,1 @@
+for %%a in ("*.*") do "ffmpeg\ffmpeg.exe" -i "%%a" -c:v libx264 -crf 18 -c:a copy "newfiles\%%~na (1080p_ENDING).mp4"
