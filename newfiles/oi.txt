@@ -1,0 +1,1 @@
+a pasta newfiles será o destino dos arquivos do encode.
