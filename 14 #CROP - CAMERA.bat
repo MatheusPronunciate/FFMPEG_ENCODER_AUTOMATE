@@ -1,0 +1,1 @@
+for %%a in ("*.*") do "ffmpeg\ffmpeg.exe" -i "%%a" -c copy -bsf:v hevc_metadata=crop_left=0:crop_right=1920:crop_top=0:crop_bottom=540 -c:a copy "newfiles\%%~na (CAMERA).mp4"
