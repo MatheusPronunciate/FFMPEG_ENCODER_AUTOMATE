@@ -24,3 +24,5 @@ Para alterar as configurações de um .bat, basta abrir em um editor simples de 
 09 - Extrai legendas e áudio de um arquivo (utiliza uma outra formatação pra essa operação; utiliza a pasta "outros" como base).
 
 10 - Converte um arquivo de .mkv para .mp4 (se atente com os limites do mp4)
+
+14 - Recorta uma area do vídeo sem a necessidade de fazer encode de um vídeo (a versão disponível é voltada para o codec h265)
