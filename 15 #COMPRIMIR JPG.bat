@@ -1,0 +1,1 @@
+for %%a in ("*.*") do "ffmpeg\ffmpeg.exe" -i "%%a" -q:v 1 "newfiles\%%~na (PRGP).jpg"
